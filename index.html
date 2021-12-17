@@ -24,20 +24,27 @@
                     background-color: aliceblue ;
                     opacity: 0.95;}
 
-        .button {width:150px;
-                height: 30px;
-                top: 50%;
-                left: 53%;
-                position: absolute;
-                -ms-transform: translate(-50%, -50%);                    
-                transform: translate(-50%, -50%);
-                border: none;
-                padding: 20px;
-                text-align: center;
-                border-radius: 12px;
-                color: whitesmoke;
-                opacity: 1.0;
-                background-color: rgb(61, 137, 250);}
+        .button {-moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  background-color: #1cb495;
+  border-radius: 6px;
+  border: 0;
+  color: #ffffff !important;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  height: 2.75em;
+  line-height: 2.75em;
+  padding: 0 1.125em;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap; }
 
         .tbox   {top: 30%;
                 left: -15%;
